@@ -67,28 +67,29 @@ img,a {
   
 .main .img-container{
   margin-bottom: 2rem;
-  border: 1px solid red;
+
 }
 
 .main .input-container {
-  display: flex;
   width: 100%;
+  margin-bottom: 4rem;
+
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
- 
-  border: 1px solid purple;
-  margin-bottom: 2rem;
 }
 
 .main input[type='text']{ 
   padding-left: 1rem;
   height: 40px;
   width: 95%;
-  max-width: 575px ;
+  max-width: 575px;
   border: 1px solid #ccc;
   border-radius: 30px / 30px;
+ 
 }
+
 .main input[type='text']:hover {
   box-shadow: 1px 1px 1px 1px rgb(204, 204, 204);
   transition: all ease 0.3s;
@@ -102,19 +103,31 @@ img,a {
 
 .buttons-container .main-btn{
   margin-right: 1rem;
-  padding: 0.65rem;
-  border-radius: 3px;
-  background : rgb(214, 212, 212);
+  padding: 0.7rem;
+  border-radius: 4px;
+  background :#fff;
 
-  font-size: 0.77em;
+  font-size: 0.8em;
   font-weight: 400;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.buttons-container .main-btn:hover{
+  background: #000;
+}
+
 .main p {
   padding-top: 2rem;
+
   font-size: 0.73em;
 }
+
 .main a {
   display: inline-block;
+  
+}
+
+.main a:link,
+.main a:visited {
+  text-decoration: none;
 }
