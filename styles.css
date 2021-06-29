@@ -91,10 +91,9 @@ img,a {
 }
 
 .main input[type='text']:hover {
-  box-shadow: 1px 1px 1px 1px rgb(204, 204, 204);
-  transition: all ease 0.3s;
+  box-shadow: 1px 1px 1px 1px rgb(219, 218, 218);
+  transition: all ease 0.4s;
 }
-
 
 
 .buttons-container {
@@ -107,24 +106,26 @@ img,a {
   border-radius: 4px;
   background :#fff;
 
-  font-size: 0.8em;
+  color: #3D3D3D;
+  
+  font-size: 0.825em;
   font-weight: 400;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .buttons-container .main-btn:hover{
-  background: #000;
+
+  border: 1px solid rgb(212, 212, 212);
+  transition: all ease 0s;
 }
 
 .main p {
   padding-top: 2rem;
-
   font-size: 0.73em;
 }
 
 .main a {
   display: inline-block;
-  
 }
 
 .main a:link,
