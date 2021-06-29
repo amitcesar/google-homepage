@@ -8,7 +8,7 @@ body {
   font-size: 16px;
   font-family: sans-serif;
   min-width: 450px;
-  width: 100%;
+
   height: 100vh;
  
   display: flex;
@@ -152,18 +152,44 @@ img,a {
   background: rgb(219, 219, 219);
   font-size: 0.785em; 
   font-weight: 300;
+
 }
 
 .footer p {
   padding: 1.5rem;
   border-bottom: 1px solid #ccc;
+  height: 46px;
 }
 
-.navbar-footer ul {
-  height: 50px;
-  min-width: 450px;
- 
-  padding: 0;
+.footer-container {
+  height: 49px;
 }
 
+.footer-container ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
 
+.footer-container ul li {
+  padding: 1rem;
+}
+
+@media only screen and (min-width: 665px) {
+
+  .footer-container  {
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .one {
+  
+    border: 1px solid green;
+  }
+  .two {
+   
+    border: 1px solid orangered;
+  }
+}
