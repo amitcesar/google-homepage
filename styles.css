@@ -5,7 +5,6 @@
 }
 
 body {
- 
   font-size: 16px;
   font-family: sans-serif;
   min-width: 450px;
@@ -40,7 +39,6 @@ img,a {
 
 .navbar a:link,
 .navbar a:visited {
-
   color: #202020;
   font-size:  0.813rem;
   font-weight: normal;
@@ -78,6 +76,7 @@ img,a {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
 }
 
 .main input[type='text']{ 
@@ -91,6 +90,8 @@ img,a {
 }
 
 .main input[type='text']:hover {
+  
+
   box-shadow: 1px 1px 1px 1px rgb(219, 218, 218);
   transition: all ease 0.4s;
 }
@@ -98,6 +99,7 @@ img,a {
 
 .buttons-container {
   margin-top: 2rem;
+
 }
 
 .buttons-container .main-btn{
@@ -113,7 +115,7 @@ img,a {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.buttons-container .main-btn:hover{
+.buttons-container .main-btn:hover {
 
   border: 1px solid rgb(212, 212, 212);
   transition: all ease 0s;
