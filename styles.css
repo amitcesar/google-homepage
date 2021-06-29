@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+img,a {
+  display: block;
+}
+
+
+
+.navbar ul {
+  padding: 0;
+  list-style: none;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar ul li {
+  padding: 1rem 0.5rem;
+}
+.navbar ul li:last-child {
+  padding-right: 1rem;
+}
+.navbar ul li:first-child {
+  margin-left: auto;
+}
+
+
+.navbar a:link,
+.navbar a:visited {
+
+  color: #202020;
+
+  font-size:  0.813rem;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+
+main {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+main .input-search{
+  border: 1px solid #ccc;
+}
+
