@@ -89,7 +89,9 @@ img,a {
   box-shadow: 1px 1px 1px 1px rgb(219, 218, 218);
   transition: all ease 0.4s;
 }
-
+.main input:focus {
+  outline: none;
+}
 
 .buttons-container {
   margin-top: 2rem;
